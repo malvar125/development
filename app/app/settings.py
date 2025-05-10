@@ -90,8 +90,8 @@ WSGI_APPLICATION = 'app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Use MySQL engine
-        'NAME': 'default_db1',                 # Your database name
-        'USER': 'default',                     # Your MySQL username
+        'NAME': 'malvar2_db1',                 # Your database name
+        'USER': 'malvar2',                     # Your MySQL username
         'PASSWORD': '123456',                  # Your MySQL password
         'HOST': 'localhost',                   # MySQL server host (localhost if on the same machine)
         'PORT': '3306',                        # MySQL default port
@@ -118,8 +118,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_ROOT = '/home/defaut/development/app/media/'
-FORCE_SCRIPT_NAME = '/default'
+MEDIA_ROOT = '/home/malvar2/development/app/media/'
+FORCE_SCRIPT_NAME = '/malvar2'
 USE_X_FORWARDED_HOST = True
 USE_X_FORWARDED_PORT = True
 
